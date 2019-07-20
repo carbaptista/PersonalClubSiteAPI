@@ -1,9 +1,9 @@
 const admin = require('firebase-admin')
-const serviceAccount = require("../personalclub-52112-firebase-adminsdk-zjwo7-e909fcdf9c.json")
+const serviceAccount = require('../personalclub-23861-firebase-adminsdk-efe42-6141679e08.json')
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://personalclub-52112.firebaseio.com",
+	credential: admin.credential.cert(serviceAccount),
+	databaseURL: 'https://personalclub-23861.firebaseio.com'
 })
 
 const db = admin.firestore()

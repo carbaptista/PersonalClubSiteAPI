@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "personalclub-52112"
+    "default": "personalclub-52112",
+    "staging": "personalclub-23861"
   }
 }

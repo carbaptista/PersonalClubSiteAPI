@@ -16,8 +16,8 @@ module.exports = (req, res, next) => {
     .auth()
     .verifyIdToken(idToken)
     .then(decodedToken => {
-      if (decodedToken.uid === 'vHBRz7TSM4TiqIfq7AfyWdfkKwO2') return next()
-      else return res.status(403).json({ error: 'Acesso Negado 2' })
+      if (decodedToken.uid === 'Iy5YwMQS3QTZhbTkPEe7yu0zT0v1') return next()
+			else return res.status(403).json({ error: 'Acesso Negado 2' })
     })
     .catch(err => {
       console.error('Error while verifying token ', err)
